@@ -1,0 +1,41 @@
+//- { routers } ...........................
+- var css = "assets/css/";
+- var js = "assets/js/";
+- var imagesCommon = "assets/images/";
+
+
+doctype html
+html
+  head
+    
+    block title
+    
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='chrome=1')
+    meta(name='title', content='')
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0')
+
+    block head_end
+      
+
+    //{ styles generales } ...............................
+    
+    link(rel="stylesheet" href=css+"styles.css")
+  body
+    
+    include ../_layouts/header
+    
+
+    
+    block content
+    
+
+    // .......................{ footer}
+    include ../_layouts/footer
+    //  ......................{ end footer}
+    
+    script( src=js+"vendors.js" )    
+    script( src=js+"app.js" )
+    block script_start
+      //- Main scripts

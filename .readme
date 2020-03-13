@@ -1,0 +1,29 @@
+/*==========
+Proyect Builder (Gulp)
+============*/
+
+Gulp command to start ----> gulp ':)'   or   gulp :)
+
+/*===========
+Sintax
+=============*/
+
+  Markup
+    Pug/Jade To use pug/jade sintax and transpile it to normal HTML
+
+  Styles
+    Pug/Jade To use pug sintax and transpile it to normal HTML
+
+  Javascript
+    Babel to compile ECMA6+ sintax to ECMA5 and even older javascript versions
+
+/*===========
+Pluggins
+=============*/
+
+  Glide.js For sliders -->  https://glidejs.com/
+  Baraba.js Using AJAX to load the page content without having to reload (combine with GSAP to make the transitions) --> https://barba.js.org/
+  GSAP.js For Animations --> https://greensock.com/gsap/
+  Chart.js For Charts ---> https://www.chartjs.org/
+  Popper.js For tooltips --> https://popper.js.org/
+  Cleave.js To format inputs output -->

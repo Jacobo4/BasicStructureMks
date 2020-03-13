@@ -1,0 +1,25 @@
+//- heredamos los blocks principales de nuestro template padre.
+extends ../_base/home-base
+
+block title 
+  title Home
+
+//- agregamos los layouts, components, elements
+block content
+  - var imagesHome = "assets/images/home/";
+  // Start Header ...............................
+  .grid-container
+    nav
+      ul
+        li opcion 1
+        li opcion 2
+        li opcion 3
+    header
+      h1 HOLA
+    section#section1
+      p lorem kasknlsadnkjknsjdasajdnkdsanjk
+      p lorem kasknlsadnkjknsjdasajdnkdsanjk
+    section#section2
+    footer
+      h2 ADIOS
+    

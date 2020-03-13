@@ -1,0 +1,51 @@
+.grid-container{
+  display: grid;
+  grid-template-areas: "navegacion header   header"
+                       "navegacion section1 section2"
+                       "navegacion footer   footer";
+  height: 80vh;
+  grid-template-columns: 50px 1fr 1fr;
+  grid-template-rows: 70px auto 200px;
+
+
+
+
+  nav{
+    background: red;
+    grid-area: navegacion;
+    grid-column: span 1;
+
+
+    &:hover{
+      grid-column: span 2;
+    }
+  }
+  header{
+    background: yellow;
+    grid-area: header;
+    @include md(){
+      grid-area: footer;
+
+    }
+
+  }
+  section#section1{
+    background: cyan;
+    grid-area: section1;
+
+  }
+  section#section2{
+    background: magenta;
+    grid-area: section2;
+
+  }
+  footer{
+    background: blue;
+    grid-area: footer;
+    @include md(){
+      grid-area: header;
+
+    }
+
+  }
+}

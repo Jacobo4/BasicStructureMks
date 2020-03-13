@@ -1,0 +1,33 @@
+// @for $i from 1 through 12 {
+//   .grid-#{$i} {
+//     grid-column: span ($i);
+//   }
+// }
+// @include sm() {
+//   @for $i from 1 through 12 {
+//     .grid-sm-#{$i} {
+//       grid-column: span ($i);
+//     }
+//   }
+// }
+// @include md() {
+//   @for $i from 1 through 12 {
+//     .grid-md-#{$i} {
+//       grid-column: span ($i);
+//     }
+//   }
+// }
+// @include lg() {
+//   @for $i from 1 through 12 {
+//     .grid-lg-#{$i} {
+//       grid-column: span ($i);
+//     }
+//   }
+// }
+// @include xl() {
+//   @for $i from 1 through 12 {
+//     .grid-xl-#{$i} {
+//       grid-column: span ($i);
+//     }
+//   }
+// }

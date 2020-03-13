@@ -1,0 +1,32 @@
+{
+  "name": "Basic-template",
+  "version": "1.0.0",
+  "description": "Basic template for project without jquery and bootstrap",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp :)"
+  },
+  "author": "Juan Jacobo Izquierdo <juan@code-labs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "autoprefixer": "^9.1.5",
+    "babel-preset-minify": "^0.5.1",
+    "browser-sync": "^2.18.13",
+    "concat": "^1.0.3",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "mq4-hover-shim": "^0.3.0"
+  },
+  "private": true
+}
